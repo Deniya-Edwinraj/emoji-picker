@@ -34,7 +34,7 @@ const App = () => {
 
 	return ( 
 		<div className="emoji-app"> 
-			<h1>Emoji Picker</h1> 
+			<h1 style={{textAlign:'center'}}>Find Your Expression! 🎭</h1> 
 			{choosenEmoji && ( 
 				<div className="selected-emoji"> 
 					<p>Selected Emoji:</p> 
